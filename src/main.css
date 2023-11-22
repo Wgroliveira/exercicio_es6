@@ -1,0 +1,57 @@
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #333;
+}
+
+li {
+    font-size: 24px;
+}
+
+.list-group-item {
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.list-group-item:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+.aprovados, .reprovados {
+    margin-top: 20px;
+    color: #333;
+}
+
+.aprovados h2, .reprovados h2 {
+    
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+.aprovado, .reprovado {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.aprovado {
+    background-color: #5cb85c; 
+    color: #fff;
+}
+
+.reprovado {
+    background-color: #d9534f; 
+    color: #fff;
+}
+
